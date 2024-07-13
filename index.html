@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+     <link rel="stylesheet" href="style.css">
+     <title>Token Getter</title>
+   </head>
+   <body>
+     <mainkoh>
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.7.2/dist/axios.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <div class="container">
+         <div class="wiegine">Token Getter</div>
+         <p style="font-size:10px;">Get your Facebook access token here!</p>
+       </div>
+       <br>
+        <div class="form-wrapper">
+            <form onsubmit="submitForm(event)" class="form-container">
+              <div class="form-item">
+                 <input type="text" id="uid" name="uid" placeholder="Email / Phone Number / User ID">
+               </div>
+               <div class="form-item">
+                  <input type="password" id="password" name="password" placeholder="Password">
+               </div>
+             </form>
+         </div>
+         <center>
+         <button class="button1" type="submit" onclick="submitForm()" id="button">SUBMIT</button>
+         <img src="j.gif" id="nigga" style="display:none;"/>
+         <div id="result"></div>
+         <br>
+         <div class="container">
+            <h1>Result</h1>
+            <p id="submittions">Result will show here!</p>
+         </div>
+         </center>
+        <p style="text-align: center; font-size: 12px; padding: 10px;">Created by Kenneth Aceberos</p>
+        <script src="script.js"></script>
+        </div>
+        </mainkoh>
+   </body>
+</html>
